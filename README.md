@@ -1,7 +1,7 @@
 # SlideShowPowerBI
 
 This is a extension for Google Chrome to display with slideshow the reports from Power BI.
-<p>I maked this app to display the reports on the TV
+<p>I made this app to view reports on TV
 
 ## Install Extension
 1. Go to "Extensions" in Google Chrome
