@@ -11,4 +11,4 @@ This is a extension for Google Chrome to display with slideshow the reports from
 
 ## Working
 
-When you are in the Power BI report, click the icon button and the slide show should be start.
+When you are in the Power BI report, click the icon button and the slide show should be start and the reports will change every <b>five seconds
