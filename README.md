@@ -6,7 +6,8 @@ This is a extension for Google Chrome to display with slideshow the reports from
 ## Install Extension
 1. Go to "Extensions" in Google Chrome
 2. Check "Developer mode"
-3. In "Load unpacked extension" load the this repository.
+3. In "Load unpacked extension" load the this repository. 
+#### The folder to be loaded should be with the files inside, if, when you load, you have this error "Could not load the manifest". It's because you're carrying the wrong folder.
 
 ## Working
 
