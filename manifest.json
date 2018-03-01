@@ -1,0 +1,33 @@
+{
+  "name": "Slide Show Power BI",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Slide show reports",
+  
+  "icons": {
+    "19": "img/logob.png"
+  },
+
+  "browser_action": {
+    "default_icon": "img/logob.png"
+  },
+  "permissions": [
+        "activeTab",
+    "clipboardWrite",
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "declarativeContent"
+    ],
+
+  "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+  
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["jquery-2.2.0.min.js","angular.min.js", "content.js"]
+  }]
+
+}
