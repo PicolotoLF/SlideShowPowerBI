@@ -1,8 +1,7 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
     chrome.tabs.executeScript(null,
         {code: "var link = location.href;" +
-        	"if (link.includes('ReportSection')){ alert('Entrando em modo apresentação!'); location.reload() } else {alert('Não foi possível entrar no modo exibição.')}"});
-
+        	"if (link.includes('ReportSection')){ alert('Entrando em modo apresentação!'); location.reload() } else {alert('Não foi possível entrar no modo exibição.')};var lucar=5"});
 });
 
 

@@ -3,6 +3,7 @@
   "manifest_version": 2,
   "version": "1.0",
   "description": "Slide show reports",
+  "options_page": "options.html",
   
   "icons": {
     "19": "img/logob.png"
@@ -17,7 +18,8 @@
         "tabs",
         "http://*/*",
         "https://*/*",
-        "declarativeContent"
+        "declarativeContent",
+        "storage"
     ],
 
   "background": {
